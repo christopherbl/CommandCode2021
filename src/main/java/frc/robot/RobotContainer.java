@@ -79,7 +79,7 @@ public class RobotContainer {
 
   private final AutoDrive m_autoDrive = new AutoDrive();
 
-  private final AutoDriveTest m_autoDriveTest = new AutoDriveTest(m_autoDrive, m_nowThisIsPodracing);
+  // private final AutoDriveTest m_autoDriveTest = new AutoDriveTest(m_autoDrive, m_nowThisIsPodracing);
 
   private final AutonomousCommandGroup m_autonomousCommandGroup = new AutonomousCommandGroup(m_aimHorizontal, m_aimVertical, m_executeOrder66, m_ifDroidsCouldThink, m_powerUnlimitedPower, m_aFineAdditionToMyCollection, m_anotherHappyLanding, m_autoDrive, m_nowThisIsPodracing);
 
